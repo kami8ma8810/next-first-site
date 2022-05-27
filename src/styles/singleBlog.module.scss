@@ -35,7 +35,7 @@
 // PrevNext
 .pnWrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
   margin-top: 5rem;
   @extend %container;
@@ -45,10 +45,12 @@
   .linkCard {
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
     border: 2px solid var(--color-primary);
     width: 100%;
     padding: 2rem 5rem;
     color: inherit;
+    max-width: 390px;
     &:hover {
       opacity: 0.8;
     }

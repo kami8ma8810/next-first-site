@@ -4,7 +4,7 @@ uid: 1
 title: "カルビの焼き方"
 date: "2022-03-01"
 image: /images/thumbnail1.jpg
-excerpt: '焼肉店において最も人気のある定番部位'
+excerpt: "焼肉店において最も人気のある定番部位"
 ---
 
 ## ポイント

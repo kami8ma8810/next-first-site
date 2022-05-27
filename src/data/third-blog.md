@@ -4,7 +4,7 @@ uid: 3
 title: "ハラミの焼き方"
 date: "2022-03-03"
 image: /images/thumbnail3.jpg
-excerpt: '赤身ではなく内臓であるハラミ'
+excerpt: "赤身ではなく内臓であるハラミ"
 ---
 
 ## ポイント

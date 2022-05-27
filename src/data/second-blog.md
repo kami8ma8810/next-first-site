@@ -4,7 +4,7 @@ uid: 2
 title: "ロースの焼き方"
 date: "2022-03-02"
 image: /images/thumbnail2.jpg
-excerpt: 'カルビより脂が少ないロース'
+excerpt: "カルビより脂が少ないロース"
 ---
 
 ## ポイント

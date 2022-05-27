@@ -1,11 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
+
 import Layout from '../components/layout';
 import * as style from '../styles/index.module.scss'
+import Seo from '../components/seo';
 
 const Index = () => {
   return (
     <Layout>
+			<Seo title="おいしい焼肉が食べたい" description="焼肉の部位ごとの焼き方を紹介しているサイトです。"/>
       <div className={style.hero}>
         <Image
           src='/images/index-hero.jpg'

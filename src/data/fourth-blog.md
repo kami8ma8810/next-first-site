@@ -4,7 +4,7 @@ uid: 4
 title: "タンの焼き方"
 date: "2022-03-04"
 image: /images/thumbnail4.jpg
-excerpt: '鮮度の良いものは刺身として食べれるほどの美味しさ'
+excerpt: "鮮度の良いものは刺身として食べれるほどの美味しさ"
 ---
 
 ## ポイント

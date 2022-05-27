@@ -1,9 +1,14 @@
 import Layout from '../components/layout';
-import * as style from '../styles/contact.module.scss'
+import Seo from '../components/seo';
+import * as style from '../styles/contact.module.scss';
 
 const Contact = () => {
   return (
     <Layout>
+      <Seo
+        title='CONTACT｜おいしい焼肉が食べたい'
+        description='当サイトに関するお問い合わせ'
+      />
       <div className={style.wrapper}>
         <div className={style.container}>
           <h1>Contact</h1>
