@@ -2,15 +2,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Pagination from '../components/pagination';
+import Seo from '../components/seo';
 import * as style from '../styles/blog.module.scss';
 import { getAllBlogs, blogsPerPage } from '../utils/mdQueries';
 
-const Blog = ({ blogs, numberPages }) => {
+const Blog = ({ blogs }) => {
   return (
     <Layout>
-      <SEO
+      <Seo
         title='BLOG｜おいしい焼肉が食べたい'
         description='部位ごとの焼き方をご紹介'
       />
@@ -46,7 +45,6 @@ const Blog = ({ blogs, numberPages }) => {
             );
           })}
         </div>
-        <Pagination numberPages={numberPages} />
       </div>
     </Layout>
   );
@@ -55,14 +53,13 @@ const Blog = ({ blogs, numberPages }) => {
 export default Blog;
 
 export async function getStaticProps() {
-  const { orderedBlogs, numberPages } = await getAllBlogs();
+  const { orderedBlogs } = await getAllBlogs();
 
   const limitedBlogs = orderedBlogs.slice(0, blogsPerPage);
 
   return {
     props: {
       blogs: limitedBlogs,
-      numberPages: numberPages,
     },
   };
 }
